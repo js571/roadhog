@@ -1,5 +1,5 @@
 {
-  "name": "roadhog2",
+  "name": "roadhog",
   "version": "0.6.0",
   "description": "Cli tool for serve and build react app, based on create-react-app, support JSON pattern config.",
   "bin": {
@@ -30,8 +30,7 @@
     "test": "npm run lint && npm run build && cross-env NODE_ENV=test nyc mocha --no-timeouts test/**/*-test.js",
     "debug": "cross-env NODE_ENV=test mocha --require babel-register --no-timeouts test/**/*-test.js",
     "report": "nyc report --reporter=html",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "precommit": "npm run lint"
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "nyc": {
     "include": [
@@ -114,5 +113,7 @@
     "husky": "^0.13.3",
     "nyc": "^10.2.0",
     "postcss-pxtorem": "^4.0.0"
-  }
+  },
+  "_from": "roadhog@0.6.0",
+  "_resolved": "http://registry.npm.taobao.org/roadhog/download/roadhog-0.6.0.tgz"
 }

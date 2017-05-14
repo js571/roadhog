@@ -1,5 +1,0 @@
-{
-  "extraBabelIncludes": [
-    "./node_modules/a"
-  ]
-}
